@@ -1,0 +1,45 @@
+.choice-box {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    background-color: white;
+    border-radius: 0.8rem;
+}
+
+.choice-box:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem 0 rgba(86, 255, 185, 0.5);
+    transform: translateY(-0.12rem);
+    transition: transform 120ms;
+  }
+
+.choice-text {
+    padding: 1rem;
+    width: 100%;
+}
+
+/* Status */
+#status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-header {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.status-main-text{
+    text-align: center;
+}
+
+/* Correct and Incorrect Box Colors*/
+.correct {
+    background-color: #288C28;
+}
+
+.incorrect {
+    background-color: red;
+}

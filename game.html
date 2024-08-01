@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Science Quiz | Game</title>
+    <link rel="shortcut icon" type="image/png" href="beaker.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class = "container">
+        <div id="game" class="justify-center flex-column">
+            <div id="status">
+                <div class="status-item">
+                    <p class="status-header">Question</p>
+                    <h1 class = "status-main-text" id="counter"></h1>
+                </div>
+                <div class="status-item">
+                    <p class="status-header">Score</p>
+                    <h1 class = "status-main-text" id="score"></h1>
+                </div>
+            </div>
+            <h2 id="question"></h2>
+            <div class="choice-box">
+                <p class="choice-text text-center" id="choice-1"></p>
+            </div>
+            <div class="choice-box">
+                <p class="choice-text text-center" id="choice-2"></p>
+            </div>
+            <div class="choice-box">
+                <p class="choice-text text-center" id="choice-3"></p>
+            </div>
+            <div class="choice-box">
+                <p class="choice-text text-center" id="choice-4"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
